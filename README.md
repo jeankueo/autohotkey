@@ -7,5 +7,8 @@ Purpose of this script is use "Win + Hotkey" to apply quick color switch. This i
 Install Steps
 --------------
 * Install Autohotkey from [Autohotkey website](https://autohotkey.com/)
-* If you want some customized color other than predefined ones in evernote, maintain them in color pallet. In my case i steal some color name and definitions from MAC, and defined like this
-![](./img/sdfsdf.PNG)
+* If you want some customized color other than predefined ones in evernote, maintain them in color pallet. In my case, besides the basic colors, I steal some color names and definitions from MAC, and defined like this
+  ![](./img/custom.color.PNG)
+* Download file [evernote.color.ahk](./evernote.color.ahk) to your PC and double click
+* Pop your note from evernote, focus on the single note window. The hotkeys are provided in following combinations:
+** Win + w : Teal

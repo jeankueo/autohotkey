@@ -10,5 +10,13 @@ Install Steps
 * If you want some customized color other than predefined ones in evernote, maintain them in color pallet. In my case, besides the basic colors, I steal some color names and definitions from MAC, and defined like this
   ![](./img/custom.color.PNG)
 * Download file [evernote.color.ahk](./evernote.color.ahk) to your PC and double click
-* Pop your note from evernote, focus on the single note window. The hotkeys are provided in following combinations:
-** Win + w : Teal
+* Pop your note from evernote, focus on the single note window. The hotkeys are provided in following combinations. First 4 are my customized colors, and the rest are basic colors provided in evernote:
+  * Win + w : teal
+  * Win + e : tangerine
+  * Win + a : plum
+  * Win + s : stawberry
+  * Win + d : turquoise
+  * Win + f : lemon
+  * Win + 5 : snow
+  * Win + 6 : licorice
+  * Win + 7 : maraschino

@@ -17,6 +17,5 @@ Install Steps
   * Win + s : stawberry
   * Win + d : turquoise
   * Win + f : lemon
-  * Win + 5 : snow
   * Win + 6 : licorice
   * Win + 7 : maraschino

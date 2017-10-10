@@ -5,6 +5,7 @@ Purpose
 of this script is use "Win + Hotkey" to apply quick color switch. This is a very handy function for heavy note user. Here are some heads up before you use it:
 * Since a lot hotkey combination with "Ctrl" is reserved and widely accepted by windows users, I choose "Win" key for it's less popular.
 * When I wrote this script, I get all positions in a single note window (not in evernote main window with side bars.) So the hotkeys are only available in single note window which you can pop from evernote main frame. If you want to use it in main frame too, don't hesitate to  adjust the script.
+* MAC user can use Keymaestor as a substitude solution.
 * Have fun! I actually made literal changes to my HOT keys :)
   ![](./img/keyboard.jpg)
 

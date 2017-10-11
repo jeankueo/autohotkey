@@ -32,7 +32,7 @@ Sleep 1
 Click 43 306    ; confirm
 Return
 
-^s:: ;color stawberry
+^s:: ;color strawberry
 Click 256 150 ; trigger color DropDownList
 Sleep 1
 Click 271 329 ; trigger more color List

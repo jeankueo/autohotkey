@@ -5,98 +5,62 @@ CoordMode Mouse Window  ; Effect click, coordinate is based on current active wi
 ^w:: ;color teal
 Click 256 150 ; trigger color DropDownList
 Sleep 1
-Click 271 329 ; trigger more color List
-Sleep 1
-Click 125 170    ; pick color 
-Sleep 1
-Click 43 306    ; confirm
+Click 257 307    ; pick color 
 Return
 
 ^e:: ;color tangerine
 Click 256 150 ; trigger color DropDownList
 Sleep 1
-Click 271 329 ; trigger more color List
-Sleep 1
-Click 47 126    ; pick color 
-Sleep 1
-Click 43 306    ; confirm
+Click 400 255    ; pick color 
 Return
 
 ^a:: ;color plum
 Click 256 150 ; trigger color DropDownList
 Sleep 1
-Click 271 329 ; trigger more color List
-Sleep 1
-Click 176 126    ; pick color  
-Sleep 1
-Click 43 306    ; confirm
+Click 328 282    ; pick color  
 Return
 
-^s:: ;color stawberry
+^s:: ;color strawberry
 Click 256 150 ; trigger color DropDownList
 Sleep 1
-Click 271 329 ; trigger more color List
-Sleep 1
-Click 205 103    ; pick color
-Sleep 1
-Click 43 306    ; confirm
+Click 351 233    ; pick color
 Return
 
 ^d:: ;color turquoise
 Click 256 150 ; trigger color DropDownList
 Sleep 1
-Click 271 329 ; trigger more color List
-Sleep 1
-Click 127 84    ; pick color
-Sleep 1
-Click 43 306    ; confirm
+Click 256 259    ; pick color
 Return
 
 ^f:: ;color lemon
 Click 256 150 ; trigger color DropDownList
 Sleep 1
-Click 271 329 ; trigger more color List
-Sleep 1
-Click 50 84    ; pick color
-Sleep 1
-Click 43 306    ; confirm
+Click 425 258   ; pick color
 Return
 
-^5:: ;color snow
+^5:: ;color dark grey
 Click 256 150 ; trigger color DropDownList
 Sleep 1
-Click 271 329 ; trigger more color List
-Sleep 1
-Click 202 170    ; pick color
-Sleep 1
-Click 43 306    ; confirm
+Click 233 257    ; pick color
 Return
 
 ^6:: ;color licorice
 Click 256 150 ; trigger color DropDownList
 Sleep 1
-Click 271 329 ; trigger more color List
-Sleep 1
-Click 28 170    ; pick color
-Sleep 1
-Click 43 306    ; confirm
+Click 232 303    ; pick color
 Return
 
 ^7:: ;maraschino
 Click 256 150 ; trigger color DropDownList
 Sleep 1
-Click 271 329 ; trigger more color List
-Sleep 1
-Click 22 84   ; pick color
-Sleep 1
-Click 43 306    ; confirm
+Click 377 283   ; pick color
 Return
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-#IfWinActive
-CoordMode Mouse Window  ; Effect click, coordinate is based on current active window
-#q:: 
-MouseGetPos, X, Y
-WinGetClass, WClass
-MsgBox %X% %Y% %WClass%
-Return
+; #IfWinActive
+; CoordMode Mouse Window  ; Effect click, coordinate is based on current active window
+; #q:: 
+; MouseGetPos, X, Y
+; WinGetClass, WClass
+; MsgBox %X% %Y% %WClass%
+; Return

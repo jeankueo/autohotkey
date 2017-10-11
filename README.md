@@ -20,16 +20,4 @@ Install Steps
 
 Key map defined in Script
 --------------
-* Basic Color  Version
-  * Ctrl + w : teal
-  * Ctrl + e : tangerine
-  * Ctrl + a : plum
-  * Ctrl + s : stawberry
-  * Ctrl + d : turquoise
-  * Ctrl + f : lemon
-  * Ctrl + 5 : snow
-  * Ctrl + 6 : licorice
-  * Ctrl + 7 : maraschino
-
-* Quick Color Version
-  * TODO
+  ![](./img/keymap.PNG)

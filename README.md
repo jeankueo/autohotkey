@@ -2,7 +2,10 @@
 
 Purpose
 --------------
-of this script is use "Win + Hotkey" to apply quick color switch. This is a very handy function for heavy note user. Here are some heads up before you use it:
+of this script is use "Win + Hotkey" to apply quick color switch. This is a very handy function for heavy note user. 
+
+Heads up before usage
+--------------
 * I use Ctrl as a combination, though this key is widely used in many aspect, but in evernote you dont really need ctrl+s to save, and I have exchanged my cap key and ctrl key. I find it easier for my hand to touch.
 * When I wrote this script, I get all positions in a single note window (not in evernote main window with side bars.) So the hotkeys are only available in single note window which you can pop from evernote main frame. If you want to use it in main frame too, don't hesitate to  adjust the script.
 * MAC user can use Keyboard maestor as a substitute solution.

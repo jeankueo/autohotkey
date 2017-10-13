@@ -12,7 +12,9 @@ Install Steps
 
 Key map defined in Script
 --------------
-* win + y               <
-* win + shift + y       >
-* win + alt             |
-  
+
+Keys | Output
+--------- | --------
+win + y  | <
+win + shift + y  | > 
+win + alt     | \|

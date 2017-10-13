@@ -1,8 +1,8 @@
-# Autohotkey Script for UK layout keyboard + DEU input method
+# Autohotkey Script for US International layout keyboard + DEU input method
 
 Purpose
 --------------
-I have a UK layout keyboard, but I need to type typical German umlaut like üöäß. German keyboard has an extra key right to left shift key which types "><|".  To type these impossible smbols (due to this missing key), I wrote this simple script.
+I have a US layout keyboard, but I need to type typical German umlaut like üöäß. German keyboard has an extra key right to left shift key which types "><|".  To type these impossible smbols (due to this missing key), I wrote this simple script.
 
 Install Steps
 --------------

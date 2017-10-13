@@ -1,4 +1,4 @@
 # My Autohotkey Script
 
 * [Evernote color switch](./evernote.color)
-* [UK keyboard for DE input method](./ukk.dei)
+* [US keyboard for DE input method](./uks.dei)

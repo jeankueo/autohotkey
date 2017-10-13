@@ -2,7 +2,7 @@
 
 Purpose
 --------------
-I have a US layout keyboard, but I need to type typical German umlaut like üöäß. German keyboard has an extra key right to left shift key which types "><|".  To type these impossible smbols (due to this missing key), I wrote this simple script. See following img. White deutsch keyboard has extra key which is highlighted, and I also marked the keys on black US keyboard I used to simulate this key.
+I have a US layout keyboard, but I need to use German input method, so as to type typical German umlaut like üöäß. German keyboard has an extra physical key right to left shift key which types "><|".  To type these impossible smbols (due to this missing key in US keyboard), I wrote this simple script. See following img. White deutsch keyboard has extra key which is highlighted. The marked the keys on black US keyboard are used to simulate this key.
 
 Deu | US
 --------- | --------

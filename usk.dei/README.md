@@ -8,6 +8,10 @@ Deu | US
 --------- | --------
 ![](./img/IMG_7758.JPG) | ![](./img/IMG_7759.JPG)
 
+Heads up before usage
+--------------
+* MAC German input does not have this problem, there are combination available already.
+
 Install Steps
 --------------
 * Install Autohotkey from [Autohotkey website](https://autohotkey.com/)

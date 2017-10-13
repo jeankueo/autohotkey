@@ -4,6 +4,12 @@ Purpose
 --------------
 Quick switch among popular T-codes. The hotkeys are only available when a sap fontend session is active window.
 
+Install Steps
+--------------
+* Install Autohotkey from [Autohotkey website](https://autohotkey.com/)
+* Download file [saplogon.ahk](./saplogon.ahk) to your PC and double click, an instance of autohotkey will run. 
+* Now you can use the hotkeys. 
+
 Key map defined in Script
 --------------
 Keys | Output

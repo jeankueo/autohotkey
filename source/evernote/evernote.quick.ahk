@@ -56,7 +56,17 @@ Sleep 1
 Click 377 283   ; pick color
 Return
 
+^c:: ; Comic Sans MS
+ControlSend, Edit1, Comic Sans MS 
+Sleep 5
+ControlSend, Edit1, {Enter}
+Return
 
+^k:: ; 楷体
+ControlSend, Edit1, 楷体
+Sleep 5
+ControlSend, Edit1, {Enter}
+Return
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; #IfWinActive
@@ -65,4 +75,4 @@ Return
 ; MouseGetPos, X, Y
 ; WinGetClass, WClass
 ; MsgBox %X% %Y% %WClass%
-; Return
+; Return    

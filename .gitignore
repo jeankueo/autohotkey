@@ -1,0 +1,23 @@
+# Ignore Eclipse project and settings files
+.classpath
+.settings
+.project
+.externalToolBuilders
+
+# Ignore in any folder
+**.log
+**.sublime-workspace
+**.sublime-project
+**node_modules
+**npm-debug.log
+**.npmrc
+**.bowerrc
+**bower_components
+
+# Ignore built file of third party
+target
+node_modules
+
+# Ignore Mac files
+**.DS_Store
+**.env

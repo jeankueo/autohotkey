@@ -1,0 +1,27 @@
+{
+  "name": "autohotkey4jean",
+  "version": "1.0.0",
+  "description": "* [Evernote color switch](./evernote.color)\r * [US inernational keyboard for DE input method](./usk.dei)\r * [ABAP T-code](./saplogon)",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-cli": "^1.2.2",
+    "gulp-concat": "",
+    "run-sequence": "1.2.1"
+  },
+  "scripts": {
+    "gulp": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeankueo/autohotkey.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeankueo/autohotkey/issues"
+  },
+  "homepage": "https://github.com/jeankueo/autohotkey#readme"
+}

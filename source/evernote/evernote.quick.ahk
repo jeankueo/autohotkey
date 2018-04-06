@@ -56,6 +56,8 @@ Sleep 1
 Click 377 283   ; pick color
 Return
 
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; #IfWinActive
 ; CoordMode Mouse Window  ; Effect click, coordinate is based on current active window

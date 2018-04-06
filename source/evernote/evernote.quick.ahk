@@ -72,11 +72,5 @@ Sleep 1
 Send {Enter}
 Return
 
+ #IfWinActive
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; #IfWinActive
-; CoordMode Mouse Window  ; Effect click, coordinate is based on current active window
-; #q:: 
-; MouseGetPos, X, Y
-; WinGetClass, WClass
-; MsgBox %X% %Y% %WClass%
-; Return    

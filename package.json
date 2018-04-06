@@ -9,6 +9,7 @@
     "gulp-clean": "^0.3.2",
     "gulp-cli": "^1.2.2",
     "gulp-concat": "",
+    "gulp-copy": "",
     "run-sequence": "1.2.1"
   },
   "scripts": {

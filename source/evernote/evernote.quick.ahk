@@ -57,15 +57,19 @@ Click 377 283   ; pick color
 Return
 
 ^c:: ; Comic Sans MS
-ControlSend, Edit1, Comic Sans MS 
-Sleep 5
-ControlSend, Edit1, {Enter}
+ControlSetText, Edit1, Cosmic Sans MS
+Sleep 1
+ControlFocus, Edit1
+Sleep 1
+Send {Enter}
 Return
 
 ^k:: ; 楷体
-ControlSend, Edit1, 楷体
-Sleep 5
-ControlSend, Edit1, {Enter}
+ControlSetText, Edit1,楷体
+Sleep 1
+ControlFocus, Edit1
+Sleep 1
+Send {Enter}
 Return
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

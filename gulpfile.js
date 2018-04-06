@@ -6,9 +6,10 @@ var concat = require('gulp-concat');
 var config = {
     clean: ["./target"],
     concat: {
-        source: ["./source/evernote/evernote.quick.ahk",
+        source: ["./source/usk.de/us.keyboard.for.de.input.method.ahk",
             "./source/saplogon/saplogon.ahk",
-            "./source/usk.de/us.keyboard.for.de.input.method.ahk"],
+            "./source/evernote/evernote.quick.ahk"
+        ],
         dest: "./target",
         targetName: "all.ahk"
     }

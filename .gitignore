@@ -15,7 +15,7 @@
 **bower_components
 
 # Ignore built file of third party
-target
+dist
 node_modules
 
 # Ignore Mac files

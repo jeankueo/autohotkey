@@ -24,22 +24,22 @@ var config = {
 };
 
 gulp.task('default', () => {
-    runSequence('clean', ['concat', 'copy']);
+    return runSequence('clean', ['concat', 'copy']);
 });
 
 gulp.task('clean', () => {
-    gulp.src(config.clean, {read: false})
+    return gulp.src(config.clean, {read: false})
         .pipe(clean());
 });
 
 gulp.task('concat', () => {
-    gulp.src(config.concat.source)
+    return gulp.src(config.concat.source)
         .pipe(concat(config.concat.targetName))
         .pipe(bom())
         .pipe(gulp.dest(config.concat.dest))
 });
 
 gulp.task("copy", () => {
-	gulp.src(config.copy.source)
+	return gulp.src(config.copy.source)
 		.pipe(copy(config.copy.dest, {prefix: 1}));
 });

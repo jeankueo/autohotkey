@@ -57,14 +57,14 @@ Click 377 283   ; pick color
 Return
 
 ^c:: ; Comic Sans MS
-ControlSetText, Edit1, Cosmic Sans MS
+ControlSetText, Edit1,Cosmic Sans MS
 Sleep 1
 ControlFocus, Edit1
 Sleep 1
 Send {Enter}
 Return
 
-^k:: ; 楷体
+^k::
 ControlSetText, Edit1,楷体
 Sleep 1
 ControlFocus, Edit1

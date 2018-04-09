@@ -10,7 +10,8 @@
     "gulp-cli": "^1.2.2",
     "gulp-concat": "",
     "gulp-copy": "",
-    "run-sequence": "1.2.1"
+    "gulp-bom": "",
+    "run-sequence": "^1.2.1"
   },
   "scripts": {
     "gulp": "./node_modules/.bin/gulp"

@@ -3,26 +3,28 @@ var runSequence = require('run-sequence');
 var clean = require('gulp-clean');
 var concat = require('gulp-concat');
 var copy = require('gulp-copy');
+var bom = require('gulp-bom');
 
 var config = {
-    clean: ["./target"],
+    clean: ["./dist"],
     concat: {
-        source: [ "./icon/icon.ahk",
-            "./source/usk.de/us.keyboard.for.de.input.method.ahk",
-            "./source/saplogon/saplogon.ahk",
-            "./source/evernote/evernote.quick.ahk"
+        source: [ 
+            "./icon/icon.ahk",
+            "./src/evernote/evernote.quick.ahk",
+            "./src/saplogon/saplogon.ahk",
+            "./src/usk.de/us.keyboard.for.de.input.method.ahk"
         ],
-        dest: "./target",
+        dest: "./dist",
         targetName: "all.ahk"
     },
     copy: {
-        source: "./icon/finger.ico",
-        dest: "./target"
+        source: "./icon/*.ico",
+        dest: "./dist"
     }
 };
 
 gulp.task('default', () => {
-    runSequence("clean", "concat", "copy");
+    runSequence('clean', ['concat', 'copy']);
 });
 
 gulp.task('clean', () => {
@@ -33,6 +35,7 @@ gulp.task('clean', () => {
 gulp.task('concat', () => {
     gulp.src(config.concat.source)
         .pipe(concat(config.concat.targetName))
+        .pipe(bom())
         .pipe(gulp.dest(config.concat.dest))
 });
 

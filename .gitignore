@@ -17,7 +17,7 @@
 # Ignore built file of third party
 dist
 node_modules
-
+package-lock.json
 
 # Ignore Mac files
 **.DS_Store

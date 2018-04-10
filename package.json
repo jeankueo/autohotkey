@@ -11,11 +11,12 @@
     "gulp-concat": "",
     "gulp-copy": "",
     "gulp-bom": "",
+    "gulp-modify": "",
     "run-sequence": "^1.2.1"
   },
   "scripts": {
     "gulp": "./node_modules/.bin/gulp",
-    "stopahk": "taskkill -IM AutoHotkey.exe",
+    "stopahk": "taskkill -im AutoHotkey.exe",
     "startahk": "cd dist && start all.ahk",
     "publish": "npm run stopahk && gulp && npm run startahk"
   },

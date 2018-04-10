@@ -4,42 +4,44 @@ var clean = require('gulp-clean');
 var concat = require('gulp-concat');
 var copy = require('gulp-copy');
 var bom = require('gulp-bom');
+var modify = require('gulp-modify');
 
 var config = {
-    clean: ["./dist"],
-    concat: {
-        source: [ 
-            "./icon/icon.ahk",
-            "./src/evernote/evernote.quick.ahk",
-            "./src/saplogon/saplogon.ahk",
-            "./src/usk.de/us.keyboard.for.de.input.method.ahk"
-        ],
-        dest: "./dist",
-        targetName: "all.ahk"
-    },
-    copy: {
-        source: "./icon/*.ico",
-        dest: "./dist"
-    }
+    destFolder: './dist',
+    destFile: 'all.ahk',
+    src: [ 
+        './src/evernote/evernote.quick.ahk',
+        './src/saplogon/saplogon.ahk',
+        './src/usk.de/us.keyboard.for.de.input.method.ahk'
+    ],    
+    iconName:  'Cuttlefish'
 };
 
 gulp.task('default', () => {
-    return runSequence('clean', ['concat', 'copy']);
+    return runSequence('clean', 'concat', 'modify', 'copy');
 });
 
 gulp.task('clean', () => {
-    return gulp.src(config.clean, {read: false})
+    return gulp.src(config.destFolder, {read: false})
         .pipe(clean());
 });
 
 gulp.task('concat', () => {
-    return gulp.src(config.concat.source)
-        .pipe(concat(config.concat.targetName))
+    return gulp.src(config.src)
+        .pipe(concat(config.destFile))
         .pipe(bom())
-        .pipe(gulp.dest(config.concat.dest))
+        .pipe(gulp.dest(config.destFolder))
 });
 
-gulp.task("copy", () => {
-	return gulp.src(config.copy.source)
-		.pipe(copy(config.copy.dest, {prefix: 1}));
+gulp.task('modify', () => {
+    return gulp.src(config.destFolder + '/' + config.destFile)
+        .pipe(modify({fileModifier: (file, content) => {
+            return 'Menu, Tray, Icon, ' + config.iconName + '.ico \n\n' + content;
+        }}))
+        .pipe(gulp.dest(config.destFolder));
+});
+
+gulp.task('copy', () => {
+	return gulp.src('./icon/' + config.iconName + '.ico')
+		.pipe(copy(config.destFolder, {prefix: 1}));
 });

@@ -14,7 +14,7 @@ var config = {
         './src/saplogon/saplogon.ahk',
         './src/usk.de/us.keyboard.for.de.input.method.ahk'
     ],    
-    iconName:  'Cuttlefish'
+    iconName:  'Hand'
 };
 
 gulp.task('default', () => {

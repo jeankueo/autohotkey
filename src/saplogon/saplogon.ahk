@@ -91,5 +91,35 @@ Click 77 54
 Send /ose11 {Enter}
 Return
 
+#5:: ; Definition of Destinations
+Click 77 54
+Send /nsm59 {Enter}
+Return
+
+#+5::
+Click 77 54
+Send /osm59 {Enter}
+Return
+
+#3:: ; Job Selection
+Click 77 54
+Send /nsm37 {Enter}
+Return
+
+#+3::
+Click 77 54
+Send /osm37 {Enter}
+Return
+
+#2:: ; Dump View
+Click 77 54
+Send /nst22 {Enter}
+Return
+
+#+2::
+Click 77 54
+Send /ost22 {Enter}
+Return
+
  #IfWinActive
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

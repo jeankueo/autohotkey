@@ -14,7 +14,7 @@ var config = {
         './src/saplogon/saplogon.ahk',
         './src/usk.de/us.keyboard.for.de.input.method.ahk'
     ],    
-    iconName:  'Hand'
+    iconName:  'Bubble'
 };
 
 gulp.task('default', () => {

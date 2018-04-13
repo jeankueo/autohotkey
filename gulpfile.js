@@ -29,7 +29,6 @@ gulp.task('clean', () => {
 gulp.task('concat', () => {
     return gulp.src(config.src)
         .pipe(concat(config.destFile))
-        .pipe(bom())
         .pipe(gulp.dest(config.destFolder))
 });
 
@@ -38,6 +37,7 @@ gulp.task('modify', () => {
         .pipe(modify({fileModifier: (file, content) => {
             return 'Menu, Tray, Icon, ' + config.iconName + '.ico \n\n' + content;
         }}))
+        .pipe(bom())
         .pipe(gulp.dest(config.destFolder));
 });
 

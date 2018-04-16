@@ -18,8 +18,8 @@
     "gulp": "./node_modules/.bin/gulp",
     "stopahk": "taskkill -im AutoHotkey.exe",
     "startahk": "cd dist && start all.ahk",
-    "sps": "npm run stopahk && gulp && npm run startahk",
-    "ps": "gulp && npm run startahk"
+    "sbs": "npm run stopahk && gulp && npm run startahk",
+    "bs": "gulp && npm run startahk"
   },
   "repository": {
     "type": "git",

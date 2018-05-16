@@ -56,7 +56,7 @@ Sleep 1
 Click 377 283   ; pick color
 Return
 
-^c:: ; Comic Sans MS
+^m:: ; Comic Sans MS
 ControlSetText, Edit1,Cosmic Sans MS
 Sleep 1
 ControlFocus, Edit1
